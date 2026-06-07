@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOvWPiv8jl+2T53v743/VIv",
+      "authorship_tag": "ABX9TyPLnUIg2ne3/+VQMmoyZ3js",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,11 +28,24 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 14,
       "metadata": {
-        "id": "8tKd8g8sq_qf"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8tKd8g8sq_qf",
+        "outputId": "10ce6e72-acde-4bcc-c5a2-30b5b25a4740"
       },
-      "outputs": [],
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "輸入今天日期20260607\n",
+            "正確\n"
+          ]
+        }
+      ],
       "source": [
         "date=int(input(\"輸入今天日期\"))\n",
         "answer=20260607\n",
@@ -42,6 +55,47 @@
         "  print(\"錯誤\")\n",
         ""
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#for迴圈與range\n",
+        "for x in range(1,11):\n",
+        "  print (x, end=\" \")\n",
+        "\n",
+        "for x in range(0,20,2):\n",
+        "  print(x, end=\" \")\n",
+        "\n",
+        "#"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RbEPh1q4uD1Y",
+        "outputId": "51a03430-400f-4ca5-d942-df0404f022c8"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1 2 3 4 5 6 7 8 9 10 0 2 4 6 8 10 12 14 16 18 "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n"
+      ],
+      "metadata": {
+        "id": "jiXIRQGnuSyJ"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
