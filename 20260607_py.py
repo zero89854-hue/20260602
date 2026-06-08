@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOeLPTxIn00frr5Qd+ifM0n",
+      "authorship_tag": "ABX9TyMhFDiwORzQiwvWxhisNvGP",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -123,6 +123,41 @@
           "name": "stdout",
           "text": [
             "total= 1683\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#投票，ab二個函數，初始值為零；另一個人數函數（輸入），當ab有有超過人數一半，則當選\n",
+        "\n",
+        "people=int(input(\"輸入投票人數\"))\n",
+        "print(\"選項有a和b\")\n",
+        "vote=input(\"輸入選項\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "#"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "egPiNoersveg",
+        "outputId": "a908d8b9-a17f-4786-d6d6-1a235c59cdaa"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "輸入投票人數32\n",
+            "選項有a和b\n",
+            "輸入選項b\n"
           ]
         }
       ]
