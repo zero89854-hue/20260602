@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyM0kKiWbW84QqQvBsrDX8G3",
+      "authorship_tag": "ABX9TyOeLPTxIn00frr5Qd+ifM0n",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -103,26 +103,26 @@
       "source": [
         "#計算1～100之間，3的倍數的總和\n",
         "sum=0\n",
-        "count=0\n",
-        "for x in range(1,101):\n",
-        "    sum+=count\n",
-        "    count+=3\n",
-        "print(\"total=\",sum)"
+        "for count in range(0,101,3):\n",
+        "    sum+=count#sum=sum+count\n",
+        "print(\"total=\",sum)\n",
+        "\n",
+        "#"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "DdCOkAMloPkz",
-        "outputId": "08c323da-ded3-45c3-a812-6b04da0859b5"
+        "outputId": "859c119e-6323-4314-cce8-53fb292fa992"
       },
-      "execution_count": 3,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "total= 14850\n"
+            "total= 1683\n"
           ]
         }
       ]
